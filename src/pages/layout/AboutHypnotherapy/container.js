@@ -10,14 +10,14 @@ class Home extends Component {
 
            <img className='picture' src = {imgUrl} />
 
-           <div className="quote">
+            <div className="quote">
               <h1>The greatest battle of life is fought out within the silent chambers of the soul. A victory on the inside of a man's heart is worth a hundred conquests on the battlefields of life. To be master of yourself is the best guarantee that you will be master of the situation. Know thyself. The crown of character is self-control.</h1>
                  <div className='sk'>
                     <h3>
                       Spencer W. Kimball
                     </h3>
                  </div>
-           </div>
+            </div>
         </form>
 
         <div className="what">

@@ -18,7 +18,7 @@ export class NavBar extends Component {
             <NavLink href="/marie">About Marie Whale </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact">Contact information</NavLink>
+            <NavLink href="/create">Create New Account</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/appointment">Schedule an appointment</NavLink>

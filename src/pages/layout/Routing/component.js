@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import React, { Component } from 'react';
-import Contact from '../Contact/component'
+import CreateNew from '../CreateNew/component'
 import AboutHypnotherapy from '../AboutHypnotherapy/container'
 import Appointment from '../Appointment/container'
 import Marie from '../Marie/component'
 import Store from '../Store/container'
 import MyAccount from '../MyAccount/component'
-// import NavBar from '../NavBar/container'
+
 
 class Routing extends Component {
   render() {
@@ -15,7 +15,7 @@ class Routing extends Component {
       <Router>
         <div>
           <Route exact path="/" component={AboutHypnotherapy}/>
-          <Route path="/contact" component={Contact}/>
+          <Route path="/create" component={CreateNew}/>
           <Route path="/appointment" component={Appointment}/>
           <Route path="/store" component={Store}/>
           <Route path="/account" component={MyAccount}/>
