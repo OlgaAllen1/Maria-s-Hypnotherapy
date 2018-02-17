@@ -1,0 +1,52 @@
+
+.main-cont{
+    padding: 50px;
+    background-color: lightsteelblue;
+}
+.picture{
+    max-width: 450px;
+    max-height: 400px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.quote{
+    padding: 50px;
+    font-family: cursive;
+    text-align: match-parent;
+    color: blueviolet;
+    font-style: italic;
+    font-size: 30px;
+
+
+}
+
+.firstp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.sk{
+    text-align: right;
+}
+
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+
+}
+
+ul{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+h2{
+    font-size: 16px;
+}

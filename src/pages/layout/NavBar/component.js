@@ -9,22 +9,25 @@ export class NavBar extends Component {
   render () {
     return (
       <Navbar dark className="bg-dark">
-        <NavbarBrand className="NavTitle">Kid's Social Network</NavbarBrand>
+        <NavbarBrand id="NavTitle" className="NavTitle">I am here to help you become the Master of yourself</NavbarBrand>
         <Nav className="ml-auto">
           <NavItem>
-            <NavLink href="/">Home</NavLink>
+            <NavLink href="/">What is a hypnotherapy?</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/library">Library</NavLink>
+            <NavLink href="/marie">About Marie Whale </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/users-list">Users</NavLink>
+            <NavLink href="/contact">Contact information</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="create-user">Create a User</NavLink>
+            <NavLink href="/appointment">Schedule an appointment</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="profile-page">My profile</NavLink>
+            <NavLink href="store">Store</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="account">My account</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

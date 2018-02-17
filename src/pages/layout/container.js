@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './container.css'
 import NavBar from './NavBar/component'
 import Routing from './Routing/component'
-import imgUrl from '../../img.jpg'
+import imgUrl from '../../HeartandHope.jpg'
 
 
 

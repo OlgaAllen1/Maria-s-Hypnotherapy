@@ -1,7 +1,7 @@
 // import React, { Component } from 'react';
 // import './App.css';
 // import Routing from './pages/layout/Routing/component'
-// import imgUrl from './img.jpg'
+// import imgUrl from './HeartandHope.jpg'
 //
 // class App extends Component {
 //   render() {
