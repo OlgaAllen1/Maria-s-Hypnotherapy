@@ -7,7 +7,7 @@ import Appointment from '../Appointment/container'
 import Marie from '../Marie/component'
 import Store from '../Store/container'
 import MyAccount from '../MyAccount/component'
-
+import Blog from '../Blog/container'
 
 class Routing extends Component {
   render() {
@@ -20,6 +20,7 @@ class Routing extends Component {
           <Route path="/store" component={Store}/>
           <Route path="/account" component={MyAccount}/>
           <Route path="/marie" component={Marie}/>
+          <Route path="/blog" component={Blog}/>
         </div>
       </Router>
     );

@@ -18,6 +18,9 @@ export class NavBar extends Component {
             <NavLink href="/marie">About Marie Whale </NavLink>
           </NavItem>
           <NavItem>
+            <NavLink href="/blog">Blog</NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink href="/create">Create New Account</NavLink>
           </NavItem>
           <NavItem>

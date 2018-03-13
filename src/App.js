@@ -18,3 +18,21 @@
 //
 //
 //
+//
+// import React,{ Component } from 'react'
+// import './container.css'
+// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+// import Paper from 'material-ui/Paper'
+//
+//
+// export default class Blog extends Component {
+//   render () {
+//     return(
+//       <MuiThemeProvider>
+//         <Blog/>
+//       </MuiThemeProvider>
+//
+//     );
+//   }
+// }
+//
