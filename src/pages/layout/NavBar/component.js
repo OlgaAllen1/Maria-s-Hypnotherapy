@@ -32,6 +32,9 @@ export class NavBar extends Component {
           <NavItem>
             <NavLink href="account">My account</NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink href="login">Log in</NavLink>
+          </NavItem>
         </Nav>
       </Navbar>
     )

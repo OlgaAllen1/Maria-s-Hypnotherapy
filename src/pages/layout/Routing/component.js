@@ -8,6 +8,7 @@ import Marie from '../Marie/component'
 import Store from '../Store/container'
 import MyAccount from '../MyAccount/component'
 import Blog from '../Blog/container'
+import LogIn from '../LogIn/component'
 
 class Routing extends Component {
   render() {
@@ -21,6 +22,7 @@ class Routing extends Component {
           <Route path="/account" component={MyAccount}/>
           <Route path="/marie" component={Marie}/>
           <Route path="/blog" component={Blog}/>
+          <Route path="/login" component={LogIn}/>
         </div>
       </Router>
     );

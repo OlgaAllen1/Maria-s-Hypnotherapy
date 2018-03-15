@@ -1,0 +1,8 @@
+.LogIn {
+    width: 40%;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+}
