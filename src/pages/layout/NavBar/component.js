@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './component.css'
-import store from '../../store'
+import store from '../../../store'
 import { Navbar, NavbarBrand, Nav, NavLink, NavItem } from 'reactstrap'
 
 console.log (store)

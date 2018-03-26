@@ -6,7 +6,7 @@ import './index.css'
 import registerServiceWorker from './registerServiceWorker'
 import Layout from './pages/layout/container.js'
 import { Provider} from 'react-redux'
-import store from './pages/store'
+import store from './store'
 
 
 ReactDOM.render(

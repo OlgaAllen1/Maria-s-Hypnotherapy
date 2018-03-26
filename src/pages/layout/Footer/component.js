@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './component.css'
-import store from '../../store'
+import store from '../../../store'
 import {footer} from 'reactstrap'
 
 console.log (store)
