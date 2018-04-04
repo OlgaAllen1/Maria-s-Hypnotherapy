@@ -7,7 +7,8 @@ export default class Blog extends Component {
   render () {
     return(
       <MuiThemeProvider>
-        <Paper style={style} zDepth={5} rounded={false}>T</Paper>
+        <Paper style={style} zDepth={5} rounded={false}>Test</Paper>
+
       </MuiThemeProvider>
 
     );

@@ -25,7 +25,6 @@ const routes = {
 
 
 
-
 const { reducer, middleware, enhancer } = routerForBrowser({ routes })
 
 //Destructuring
