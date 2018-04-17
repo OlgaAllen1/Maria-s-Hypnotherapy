@@ -56,14 +56,28 @@ export default ({ cartCount }) => (
       <NavItem>
         <NavLink href="account">My account</NavLink>
       </NavItem>
+
+      <NavItem>
+          <NavLink href="products" className="nav-link">Products</NavLink>
+      </NavItem>
+
+      <NavItem>
+          <NavLink href="cart" className="nav-link">Cart ({cartCount}) </NavLink>
+      </NavItem>
+
+      {/*<Navbar dark={true} className="bg-dark">*/}
+        {/*<NavbarBrand>Shopping Cart</NavbarBrand>*/}
+        {/*<Nav>*/}
+          {/*<Link href="/products" className="nav-link">Products</Link>*/}
+          {/*<Link href="/cart" className="nav-link">Cart ({cartCount}) </Link>*/}
+        {/*</Nav>*/}
+      {/*</Navbar>*/}
+
       <NavItem>
         <NavLink href="login">Log in</NavLink>
       </NavItem>
     </Nav>
-    <Nav>
-          <Link href="/products" className="nav-link">Products</Link>
-          <Link href="/cart" className="nav-link">Cart ({cartCount}) </Link>
-    </Nav>
+
   </Navbar>
 )
 

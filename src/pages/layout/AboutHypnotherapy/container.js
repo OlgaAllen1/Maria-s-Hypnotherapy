@@ -47,12 +47,13 @@ class Home extends Component {
            </form>
         </div>
 
-        <p className='table'>
+        <div className='table'>
           <div id="3">
             <h1>Hypnosis and the observable states of Trance</h1>
             <h2>
 
               <table border="5">
+                <tbody>
                   <tr>
                     <th>Name of Hypnosis or Trance State</th>
                     <th>Signs and Characteristics</th>
@@ -162,10 +163,11 @@ class Home extends Component {
                       </ul>
                     </td>
                   </tr>
+                </tbody>
               </table>
             </h2>
           </div>
-        </p>
+        </div>
       </div>
     )
   }

@@ -35,7 +35,7 @@ export default class Create extends Component {
         <FormGroup row>
           <Label for="example2Password" sm={2}>Re-enter your new password</Label>
           <Col sm={10}>
-            <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+            <Input type="password" name="password" id="re-examplePassword" placeholder="password placeholder" />
           </Col>
         </FormGroup>
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './component.css'
 import store from '../../../store'
-import {footer} from 'reactstrap'
+
 
 console.log (store)
 
@@ -9,8 +9,7 @@ export class Footer extends Component {
   render () {
     const contact = { textAlign: "center" }
       return (
-        <body>
-         <footer class="footer">
+         <footer className="footer">
            <div style={contact}>
                <br/>
                <h5>Call me or text me if you have any questions or if you would like to schedule an appointment
@@ -21,7 +20,6 @@ export class Footer extends Component {
                <br/>
            </div>
          </footer>
-        </body>
       )
   }
 }

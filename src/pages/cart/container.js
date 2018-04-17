@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import {removeFromCart} from './actions'
 import CartRow from './cart-row/component'
 
-export class Layout extends Component {
+export class Cart extends Component {
   handleRemoveCart =(product) => {
     this.props.dispatch(removeFromCart(product))
   }
@@ -39,4 +39,4 @@ const mapStateToProps = (state) => ({
   products: state.cart.products
 })
 
-export default connect(mapStateToProps)(Layout)
+export default connect(mapStateToProps)(Cart)
