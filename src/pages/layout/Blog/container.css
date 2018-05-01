@@ -2,6 +2,19 @@
     display: flex;
 }
 
-.colorExample {
-    background: red;
+/*.colorExample {*/
+    /*background: red;*/
+/*}*/
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    background-color: lightsteelblue;
+}
+
+h2{
+    font-size: 18px;
+    padding: 30px;
+    background-color: lightblue;
 }

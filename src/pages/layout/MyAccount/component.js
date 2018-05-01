@@ -12,3 +12,4 @@ class MyAccount extends Component {
 }
 
 export default MyAccount
+

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './component.css'
+import './container.css'
 import  {Button, Col, Form, FormGroup, Label, Input, FormText}  from 'reactstrap';
 
 export default class Create extends Component {
