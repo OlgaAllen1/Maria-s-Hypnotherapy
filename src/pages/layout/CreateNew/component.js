@@ -1,9 +1,47 @@
 import React, { Component } from 'react'
 import './container.css'
 import  {Button, Col, Form, FormGroup, Label, Input, FormText}  from 'reactstrap';
+import gql from "graphql-tag"
+import { client } from '../../../endpoint'
+
+
 
 export default class Create extends Component {
-  render() {
+
+  // state = { username: '' }
+  // state = { email: '' }
+  // state = { password1: '' }
+  // state = { password2: '' }
+  // state = { gender: '' }
+  // state = { birthDate: '' }
+  // state = { date: '' }
+  // state = { something: '' }
+  // state = { tell: '' }
+
+
+
+
+
+  render() {const addToDataBase = async () => {
+
+    let temp1 = await client.mutate({
+      // mutation: gql`
+      //
+      //     mutation{
+      //         createUser(data: { name: "${this.state.username}" }){
+      //             id
+      //             name
+      //         }
+      //     }
+      // `
+    }).then((result) => { return result.data.createUser })
+
+    await console.log("La Data: ", temp1)
+    await this.setState({singerName: ''})
+    window.location.reload()
+
+  }
+
     return (
 
       <Form className="main">
@@ -107,9 +145,49 @@ export default class Create extends Component {
             {/*</Label>*/}
           {/*</FormGroup>*/}
         </FormGroup>
-        <Button>Submit</Button>
+        <Button className="userButton" onClick={ addToDataBase }>Submit</Button>
+
       </Form>
     );
   }
 }
 
+// import React from 'react'
+// import gql from "graphql-tag"
+// import { client } from './PrismaEndPoint/EndPoint'
+//
+//
+// export default class extends React.Component{
+//   state = { singerName: '' }
+//
+//   render(){
+//
+//     const addToDataBase = async () => {
+//       let temp1 = await client.mutate({
+//         mutation: gql`
+//             mutation{
+//                 createUser(data: { name: "${this.state.singerName}" }){
+//                     id
+//                     name
+//                 }
+//             }
+//         `}).then((result) => { return result.data.createUser } )
+//
+//       await console.log("La Data: ", temp1 )
+//       await this.setState({ singerName: '' })
+//       window.location.reload()
+//     }
+//
+//     return(
+//       <div>
+//         <h1>Add Singer</h1>
+//
+//         <div>
+//           <h3>Provide Singer or Group name below</h3>
+//           <input className="gralInput" type="text" value={ this.state.singerName } onChange={ (e) => { this.setState({ singerName: e.target.value }) } } />
+//           <br/><br/>
+//           <button className="gralButton" onClick={ addToDataBase } >Add to DataBase</button>
+//         </div>
+//       </div>
+//     )
+//   }

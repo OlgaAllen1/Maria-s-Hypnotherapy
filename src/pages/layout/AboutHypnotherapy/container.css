@@ -4,20 +4,18 @@
     background-color: lightsteelblue;
 }
 .picture{
-    max-width: 450px;
-    max-height: 400px;
-    padding-right: 50px;
-    padding-bottom: 30px;
+    width: 25%;
+    height: 20%;
 }
 
 .quote{
-    padding: 50px;
+    padding: 2%;
     font-family: cursive;
     text-align: match-parent;
-    color: blueviolet;
+    color: darkblue;
     font-style: italic;
     font-size: 30px;
-
+    background-color: paleturquoise;
 
 }
 
@@ -26,6 +24,7 @@
     flex-direction: row;
     justify-content: space-around;
 
+
 }
 .sk{
     text-align: right;
@@ -33,20 +32,34 @@
 
 
 h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
     font-size: 30px;
 
 }
 
-ul{
-    padding-left: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
+/*ul{*/
+    /*padding-left: 0px;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+/*}*/
 
 h2{
     font-size: 16px;
 }
+
+.video {
+    width: 36%;
+    height: 18%;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+}
+
+.pp {
+    /*background-color: pink;*/
+}
+

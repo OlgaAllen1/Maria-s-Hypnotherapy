@@ -51,7 +51,7 @@ export default ({ cartCount }) => (
         <NavLink href="/appointment">Schedule an appointment</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="/store">Store</NavLink>
+        {/*<NavLink href="/store">Store</NavLink>*/}
       </NavItem>
       <NavItem>
         <NavLink href="/account">My account</NavLink>

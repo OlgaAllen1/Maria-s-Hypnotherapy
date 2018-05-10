@@ -1,8 +1,14 @@
 .LogIn {
-    width: 40%;
+    width: 94%;
+    background-color: lightsteelblue;
+
+    margin: 3%;
+    padding: 10%;
+
 }
 
 .flexBox {
     display: flex;
     flex-direction: column;
+
 }

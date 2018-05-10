@@ -22,9 +22,13 @@ export default class extends Component {
     return(
       <div className="LogIn">
         <form className="flexBox" onSubmit={handleSubmit}>
+
           <input type="text" placeholder="Username" onChange={e => this.setState({username: e.target.value})} />
+          <br/>
           <input type="password" placeholder="Password" onChange={e => this.setState({password: e.target.value})}/>
+          <br/>
           <input type="submit" placeholder="Submit"/>
+
         </form>
       </div>
     );

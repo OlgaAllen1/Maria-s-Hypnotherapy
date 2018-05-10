@@ -2,3 +2,41 @@
     padding: 50px;
     background-color: lightsteelblue;
 }
+
+.secondp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.marie1 {
+    width: 30%;
+    height: 30%;
+}
+.marie2 {
+    width: 40%;
+    height: 20%;
+}
+
+.page {
+    padding: 50px;
+    background-color: lightsteelblue;
+}
+
+.p {
+    padding: 2%;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.pp {
+    padding: 2%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.e {
+    text-align: center;
+}

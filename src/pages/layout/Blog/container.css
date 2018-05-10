@@ -7,14 +7,37 @@
 /*}*/
 
 h1 {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    /*padding-top: 40px;*/
+    /*padding-bottom: 20px;*/
     font-size: 30px;
-    background-color: lightsteelblue;
+    /*background-color: lightsteelblue;*/
 }
 
 h2{
     font-size: 18px;
-    padding: 30px;
-    background-color: lightblue;
+    /*padding: 30px;*/
+    /*background-color: lightblue;*/
+}
+
+.table{
+    /*background-color: lightblue;*/
+}
+
+
+
+
+.hh{
+    padding: 5%;
+
+}
+
+.sanfran{
+    width: 40%;
+    height: 60%;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+
 }

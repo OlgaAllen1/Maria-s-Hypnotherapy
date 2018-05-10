@@ -7,6 +7,7 @@ export default ({ product, onAddToCart }) => (
   <Card>
     <CardHeader>{product.name}</CardHeader>
     <CardBody>{product.description}</CardBody>
+    <CardBody>{product.price}</CardBody>
     <CardFooter>
       <Button color="success" onClick={() => onAddToCart(product)}>Add To Cart</Button>
     </CardFooter>
