@@ -11,6 +11,10 @@ import Blog from '../Blog/container'
 import LogIn from '../LogIn/component'
 import Cart from '../../../pages/cart/container'
 import Products from '../products/container'
+import Admin from '../Admin/main'
+import Testimonials from '../Testimonials/component'
+import AddProduct from '../Admin/products'
+
 
 class Routing extends Component {
   render() {
@@ -27,6 +31,9 @@ class Routing extends Component {
           <Route path="/login" component={LogIn}/>
           <Route path="/cart" component={Cart}/>
           <Route path="/products" component={Products}/>
+          <Route path="/admin" component={Admin}/>
+          <Route path="/add-product" component={AddProduct}/>
+          <Route path="/testimonials" component={Testimonials}/>
         </div>
       </Router>
     );

@@ -10,3 +10,4 @@ export default ({ product, onRemoveCart }) => (
     <td><Button color="dander" onClick={() => onRemoveCart(product)}>x</Button></td>
   </tr>
 )
+

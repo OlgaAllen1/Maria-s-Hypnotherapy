@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './component.css'
 import store from '../../../store'
 import { Navbar, NavbarBrand, Nav, NavLink, NavItem } from 'reactstrap'
-import {Link} from 'redux-little-router'
+// import {Link} from 'redux-little-router'
 
 
 
@@ -36,10 +36,13 @@ export default ({ cartCount }) => (
     <NavbarBrand id="NavTitle" className="NavTitle">I am here to help you become the Master of yourself</NavbarBrand>
     <Nav className="ml-auto">
       <NavItem>
-        <NavLink href="/">What is a hypnotherapy?</NavLink>
+        <NavLink href="/">Home</NavLink>
       </NavItem>
       <NavItem>
         <NavLink href="/marie">About Marie Whale </NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="/testimonials">Testimonials</NavLink>
       </NavItem>
       <NavItem>
         <NavLink href="/blog">Blog</NavLink>
@@ -68,6 +71,11 @@ export default ({ cartCount }) => (
       <NavItem>
         <NavLink href="/login">Log in</NavLink>
       </NavItem>
+
+      <NavItem>
+        <NavLink href="/admin">Admin</NavLink>
+      </NavItem>
+
     </Nav>
 
   </Navbar>
