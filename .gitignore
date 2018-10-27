@@ -1,5 +1,7 @@
 # Files and directories to ignore
-node_modules
+.DS_Store
 .idea
 .idea/workspace.xml
+node_modules
+
 #/src/pages/layout/CreateNew/container.css
