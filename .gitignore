@@ -1,4 +1,3 @@
 # Files and directories to ignore
-
-#node_modules
+node_modules
 #/src/pages/layout/CreateNew/container.css
