@@ -1,0 +1,38 @@
+.add {
+    margin: 2%;
+    padding: 2%;
+
+}
+
+.myProducts {
+    padding: 2%;
+
+}
+
+.container-of-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+/*.product-picture{*/
+    /*height: 5%;*/
+    /*width: auto;*/
+/*}*/
+
+.picture-product{
+    height: 250px;
+    width: auto;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    align-content: left;
+}

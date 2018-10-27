@@ -14,7 +14,7 @@ import Products from '../products/container'
 import Admin from '../Admin/main'
 import Testimonials from '../Testimonials/component'
 import AddProduct from '../Admin/products'
-
+import AddUser from '../Admin/users'
 
 class Routing extends Component {
   render() {
@@ -33,7 +33,9 @@ class Routing extends Component {
           <Route path="/products" component={Products}/>
           <Route path="/admin" component={Admin}/>
           <Route path="/add-product" component={AddProduct}/>
+          <Route path="/add-user" component={AddUser}/>
           <Route path="/testimonials" component={Testimonials}/>
+
         </div>
       </Router>
     );

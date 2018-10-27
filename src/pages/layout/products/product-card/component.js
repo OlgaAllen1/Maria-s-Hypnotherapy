@@ -5,7 +5,8 @@ import { Card, CardBody, CardHeader, CardFooter, Button } from 'reactstrap'
 
 export default ({ product, onAddToCart }) => (
   <Card>
-    <CardHeader>{product.name}</CardHeader>
+    <img src={product.picture} alt=""/>
+    <CardHeader>{product.productName}</CardHeader>
     <CardBody>{product.description}</CardBody>
     <CardBody>{product.price}</CardBody>
     <CardFooter>

@@ -20,24 +20,39 @@ h2{
 }
 
 .table{
-    /*background-color: lightblue;*/
+    padding: 2%;
 }
 
-
+.h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 .hh{
-    padding: 5%;
+
+    padding: 2%;
 
 }
 
+.hhh{
+    text-align: left;
+    border: dotted;
+    padding: 5%;
+}
+
+
 .sanfran{
-    width: 40%;
-    height: 60%;
+    height: 85%;
+    width: 25%;
 }
 
 .history {
     display: flex;
     flex-direction: row;
 
+}
+ .ul {
+    text-align: center;
 }

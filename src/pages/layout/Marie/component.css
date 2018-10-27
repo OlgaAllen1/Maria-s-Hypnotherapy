@@ -2,11 +2,68 @@
     padding: 50px;
     background-color: lightsteelblue;
 }
+/*@media only screen and (max-width: 1260px) {*/
+    /*.picture {*/
+        /*display: none;*/
+    /*}*/
+    /*.quote {*/
+        /*background-image: url("light.jpg");*/
+    /*}*/
+/*}*/
+
+@media only screen and (max-width: 1500px) {
+    .marie1 {
+        display: none;
+    }
+
+    .m {
+        background-image: url("Marie.jpg");
+        background-blend-mode: screen;
+    }
+}
+@media only screen and (max-width: 1890px) {
+    .marie2 {
+        display: none;
+    }
+
+    .mm {
+        background: lightyellow;
+        /*background-image: url('cert.jpg');*/
+        background-blend-mode: screen;
+    }
+}
+@media only screen and (max-width: 1880px) {
+    .marie3 {
+        display: none;
+    }
+
+    .mmm {
+        background-image: url('sunshine.jpg');
+        background-blend-mode: screen;
+    }
+}
+@media only screen and (max-width: 1550px) {
+    .marie4 {
+        display: none;
+    }
+    .mmmm{
+        background-image: url("Liza.jpg");
+        background-blend-mode: screen;
+    }
+}
+
 
 .secondp {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
+}
+
+.thirdp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .marie1 {
@@ -14,7 +71,15 @@
     height: 30%;
 }
 .marie2 {
-    width: 40%;
+    /*width: 30%;*/
+    height: 30%;
+}
+.marie3 {
+    width: 33%;
+    height: 20%;
+}
+.marie4 {
+    width: 30%;
     height: 20%;
 }
 
@@ -23,20 +88,45 @@
     background-color: lightsteelblue;
 }
 
-.p {
+.m {
     padding: 2%;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    background-color: lightblue;
 
 }
 
-.pp {
+.mm {
     padding: 2%;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
+    background-color: cornsilk;
+    width: 100%;
+}
+
+.mmm {
+    padding: 2%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: plum;
+    backdrop-filter: opacity(30%);
+}
+
+.mmmm {
+    padding: 2%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+    width: 100%;
 }
 
 .e {
     text-align: center;
+    font-size: 30px;
 }
+
+
+

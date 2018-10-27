@@ -3,6 +3,8 @@ import './container.css'
 import imgUrl from './light.jpg'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Paper from 'material-ui/Paper'
+import lilyUrl from './lily.jpg'
+
 
 class Home extends Component {
 
@@ -29,51 +31,62 @@ class Home extends Component {
 
               <br/>
 
-                    <form>
+                    {/*<form>*/}
 
-                      <Paper className='secondp' zDepth={5} rounded={true}>
+                      {/*<Paper className='secondp' zDepth={5} rounded={true}>*/}
 
-                        <div className='pp'>
+                        {/*<div className='pp'>*/}
 
-                          <br/>
+                              {/*<br/>*/}
 
-                          <div className='m'>
+                                  {/*<div className='m'>*/}
 
-                            <h1>Marie Whale is answering questions:</h1>
+                                    {/*<h1>Marie Whale is answering questions:</h1>*/}
 
-                          </div>
+                                  {/*</div>*/}
 
-                          <br/>
+                              {/*<br/>*/}
 
-                          <ul>
-                            <li>How my sessions work</li>
-                            <li>If you will be in control under hypnosis</li>
-                            <li>and other questions</li>
-                            {/*<li>Weight Loss</li>*/}
-                            {/*<li>Achieving goals</li>*/}
-                          </ul>
+                                    {/*<ul>*/}
+                                      {/*<li>How my sessions work</li>*/}
+                                      {/*<li>If you will be in control under hypnosis</li>*/}
+                                      {/*<li>and other questions</li>*/}
+                                      {/*/!*<li>Weight Loss</li>*!/*/}
+                                      {/*/!*<li>Achieving goals</li>*!/*/}
+                                    {/*</ul>*/}
 
-                        </div>
+                        {/*</div>*/}
 
-                        <div className='video'>
+                        {/*<div className='video'>*/}
 
-                          <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/5uJuS2v8Tf0">
-                            // frameborder="0"
-                            // allow="autoplay;encrypted-media"
-                            // allowfullscreen
+                          {/*<iframe*/}
+                            {/*width="560"*/}
+                            {/*height="315"*/}
+                            {/*src="https://www.youtube.com/embed/5uJuS2v8Tf0">*/}
+                            {/*// frameborder="0"*/}
+                            {/*// allow="autoplay;encrypted-media"*/}
+                            {/*// allowfullscreen*/}
 
-                          </iframe>
-                        </div>
+                          {/*</iframe>*/}
+                        {/*</div>*/}
 
-                      </Paper>
+                      {/*</Paper>*/}
 
-                    </form>
+                    {/*</form>*/}
 
               <br/>
 
+
+                    {/*<Paper className='lily' zDepth={5} rounded={true}>*/}
+
+                      {/*<div className="introduction">*/}
+                        {/*<br/>*/}
+                        {/*<h1>The greatest b.*/}
+                        {/*</h1>*/}
+
+                      {/*</div>*/}
+                      {/*<img className='picture' src = {lilyUrl} />*/}
+                    {/*</Paper>*/}
 
             </div>
 
@@ -86,11 +99,11 @@ class Home extends Component {
 
 export default Home
 
-const style = {
-  // height: 5000,
-  // width: 1500,
-  margin: 0,
+// const style = {
+//   // height: 5000,
+//   // width: 1500,
+//   margin: 0,
 
-  textAlign: 'center',
-  display: 'inline-block',
-};
+//   textAlign: 'center',
+//   display: 'inline-block',
+// };

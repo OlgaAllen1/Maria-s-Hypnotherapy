@@ -25,7 +25,7 @@ class Marie extends Component {
               <form>
                 <Paper className='secondp' zDepth={5} rounded={true}>
                   <img className='marie1' src = {imgUrl} />
-                <div className='p'>
+                <div className='m'>
                   <br/>
                   <h1>
                     My goal is to help people find peace, harmony, and fulfillment of their dreams.
@@ -47,7 +47,7 @@ class Marie extends Component {
               <form>
 
                 <Paper className='secondp' zDepth={5} rounded={true}>
-                  <div className='pp'>
+                  <div className='mm'>
                     <br/>
 
                       <div className='e'>
@@ -77,8 +77,8 @@ class Marie extends Component {
               <form>
 
                 <Paper className='secondp' zDepth={5} rounded={true}>
-                  <img className='marie1' src = {sunUrl} />
-                  <div className='pp'>
+                  <img className='marie3' src = {sunUrl} />
+                  <div className='mmm'>
 
                     <br/>
 
@@ -108,9 +108,9 @@ class Marie extends Component {
 
               <form>
 
-                <Paper className='secondp' zDepth={5} rounded={true}>
+                <Paper className='thirdp' zDepth={5} rounded={true}>
 
-                  <div className='pp'>
+                  <div className='mmmm'>
 
                     <br/>
 
@@ -132,7 +132,7 @@ class Marie extends Component {
 
                   </div>
 
-                  <img className='marie1' src = {lizaUrl} />
+                  <img className='marie4' src = {lizaUrl} />
 
                 </Paper>
 

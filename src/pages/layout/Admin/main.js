@@ -3,12 +3,15 @@ import './main.css'
 import { Button } from 'reactstrap'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Paper from 'material-ui/Paper'
-import {Link} from 'react-router-dom'
+import {Link, Redirect} from 'react-router-dom'
 import roseUrl from './rose.jpg'
 
 
 
 class Admin extends Component {
+  state = { goToProduct: false }
+  state = { goToUsers: false}
+
   render () {
     return (
       <MuiThemeProvider>
@@ -24,61 +27,32 @@ class Admin extends Component {
           <br/>
 
           <form>
-            <Paper className='admin1'zdepth={5} rounded={true}>
-
-              <Button className='button' color="success"
-                      // onClick={() => onProducts(product)}
-              >
-                Go to my products
-              </Button>
-
-
-
-              {/*<Link to="/add-product">*/}
-                    <Button className='button'color="success"
-                            // onClick={() => onProducts(product)}
-                    >
-                      Add a Product
-                    </Button>
-              {/*</Link>*/}
-
-
-
-              <Button className='button'color="success"
-                      // onClick={() => onProducts(product)}
-              >
-                Edit a Product
-              </Button>
-
-              {/*<img className='rose' src = {roseUrl} alt=""/>*/}
-
+            <Paper className='admin1' zdepth={5} rounded={true}>
+                  <Button className='button' color="success"
+                          onClick={() => { this.setState({ goToProduct: true }) }}>
+                    Go to my products
+                  </Button>
+                     { this.state.goToProduct ? <Redirect push to="/add-product" /> :
+                      <div>
+                      </div>
+                  }
+                  <img className='rose' src = {roseUrl} alt=""/>
             </Paper>
           </form>
 
           <br/>
 
           <form>
-            <Paper className='admin2'zdepth={5} rounded={true}>
+            <Paper className='admin1' zdepth={5} rounded={true}>
               {/*<img className='' src = {picUrl} alt=""/>*/}
-              <Button className='button'color="success"
-                      // onClick={() => onProducts(product)}
-              >
-                Go to my Users
-              </Button>
-
-              <Button className='button'color="success"
-                // onClick={() => onProducts(product)}
-              >
-                Add a User
-              </Button>
-
-
-
-              <Button className='button'color="success"
-                // onClick={() => onProducts(product)}
-              >
-                Edit a User
-              </Button>
+                    <Button className='button' color="success"
+                            onClick={() => { this.setState({ goToUsers: true }) }}>
+                      Go to my Users
+                    </Button>
+                       { this.state.goToUsers ? <Redirect push to="/add-user" /> :
+                <div>
+                </div>
+              }
 
             </Paper>
           </form>
@@ -94,19 +68,17 @@ class Admin extends Component {
                 Go to Testimonials
               </Button>
 
-              <Button className='button'color="success"
-                // onClick={() => onProducts(product)}
-              >
-                Add a Testimonial
-              </Button>
+              {/*<Button className='button'color="success"*/}
+                {/*// onClick={() => onProducts(product)}*/}
+              {/*>*/}
+                {/*Add a Testimonial*/}
+              {/*</Button>*/}
 
-
-
-              <Button className='button'color="success"
-                // onClick={() => onProducts(product)}
-              >
-                Edit a Testimonial
-              </Button>
+              {/*<Button className='button'color="success"*/}
+                {/*// onClick={() => onProducts(product)}*/}
+              {/*>*/}
+                {/*Edit a Testimonial*/}
+              {/*</Button>*/}
 
             </Paper>
           </form>
