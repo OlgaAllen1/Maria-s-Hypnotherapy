@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './container.css'
-import imgUrl from './light.jpg'
+import imgUrl from '../Marie/light.jpg'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Paper from 'material-ui/Paper'
 import lilyUrl from './lily.jpg'
@@ -15,19 +15,19 @@ class Home extends Component {
 
             <div className='main-cont'>
 
-                    <Paper className='firstp' zDepth={5} rounded={true}>
-                      <img className='picture' src = {imgUrl} />
-                      <div className="quote">
-                        <br/>
-                        <h1>The greatest battle of life is fought out within the silent chambers of the soul. A victory on the inside of a man's heart is worth a hundred conquests on the battlefields of life. To be master of yourself is the best guarantee that you will be master of the situation. Know thyself. The crown of character is self-control.
-                        </h1>
-                           <div className='sk'>
-                              <h3>
-                                Spencer W. Kimball
-                              </h3>
-                           </div>
-                      </div>
-                    </Paper>
+                    {/*<Paper className='firstp' zDepth={5} rounded={true}>*/}
+                      {/*<img className='picture' src = {imgUrl} />*/}
+                      {/*<div className="quote">*/}
+                        {/*<br/>*/}
+                        {/*<h1>The greatest battle of life is fought out within the silent chambers of the soul. A victory on the inside of a man's heart is worth a hundred conquests on the battlefields of life. To be master of yourself is the best guarantee that you will be master of the situation. Know thyself. The crown of character is self-control.*/}
+                        {/*</h1>*/}
+                           {/*<div className='sk'>*/}
+                              {/*<h3>*/}
+                                {/*Spencer W. Kimball*/}
+                              {/*</h3>*/}
+                           {/*</div>*/}
+                      {/*</div>*/}
+                    {/*</Paper>*/}
 
               <br/>
 

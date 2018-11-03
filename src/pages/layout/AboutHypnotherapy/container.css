@@ -13,10 +13,9 @@
         display: none;
     }
     .quote {
-        background-image: url("light.jpg");
+        background-image: url("../Marie/light.jpg");
     }
 }
-
 
 .quote{
     padding: 2%;
@@ -24,9 +23,8 @@
     text-align: match-parent;
     color: darkblue;
     font-style: italic;
-    font-size: xx-large;
+    font-size: 40px;
     background-color: paleturquoise;
-
 }
 
 .introduction{
@@ -39,8 +37,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-
 }
 
 .lily{
@@ -59,12 +55,11 @@
 }
 
 
-h1{
-    /*padding-top: 20px;*/
-    /*padding-bottom: 20px;*/
-    font-size: 30px;
-
-}
+/*h1{*/
+    /*!*padding-top: 20px;*!*/
+    /*!*padding-bottom: 20px;*!*/
+    /*font-size: 30px;*/
+/*}*/
 
 /*ul{*/
     /*padding-left: 0px;*/

@@ -6,7 +6,7 @@ import imgUrl from './Marie.jpg'
 import certUrl from './cert.jpg'
 import sunUrl from './sunshine.jpg'
 import lizaUrl from './Liza.jpg'
-
+import picUrl from './light.jpg'
 
 class Marie extends Component {
   render () {
@@ -15,32 +15,39 @@ class Marie extends Component {
 
         <div className='page'>
               <form>
-                <div>
-                  <h1>Let me tell you about myself</h1>
-                </div>
+                  <h1 className = 'let'>
+                      Let me tell you about myself
+                  </h1>
               </form>
 
          <br/>
-
-              <form>
-                <Paper className='secondp' zDepth={5} rounded={true}>
-                  <img className='marie1' src = {imgUrl} />
-                <div className='m'>
+              <Paper className='firstp' zDepth={5} rounded={true}>
+                <img className='picture' src = {picUrl} />
+                <div className="quote">
                   <br/>
-                  <h1>
-                    My goal is to help people find peace, harmony, and fulfillment of their dreams.
-
-                    I have very high standards and always strive to maintain those standards.  I am a hard worker and push myself to find solutions. I have strong boundaries and will not cross the boundaries that I have set for myself, while accepting that others have to figure out their own boundaries and set their own limits.  I have learned to present myself in a very positive light; I know who I am, and I live up to that.
-                    {/*I specialize in hypnotherapy that helps my clients heal from*/}
-                    {/*•	Abuse				Achieving goals*/}
-                    {/*•	Pain				Anger management*/}
-                    {/*•	Pornography*/}
-                    {/*•	Weight Loss*/}
-
-                  </h1>
+                  The greatest battle of life is fought out within the silent chambers of the soul. A victory on the inside of a man's heart is worth a hundred conquests on the battlefields of life. To be master of yourself is the best guarantee that you will be master of the situation. Know thyself. The crown of character is self-control.
+                  <div className='sk'>
+                      Spencer W. Kimball
+                  </div>
                 </div>
-                </Paper>
-              </form>
+              </Paper>
+
+          <br/>
+              {/*<form>*/}
+                {/*<Paper className='secondp' zDepth={5} rounded={true}>*/}
+                  {/*<img className='marie1' src = {imgUrl} />*/}
+                {/*<div className='m'>*/}
+                  {/*<br/>*/}
+                    {/*My goal is to help people find peace, harmony, and fulfillment of their dreams.*/}
+
+                    {/*I have very high standards and always strive to maintain those standards.*/}
+                    {/*I am a hard worker and push myself to find solutions.*/}
+                    {/*I have strong boundaries and will not cross the boundaries that I have set for myself, while accepting that others have to figure out their own boundaries and set their own limits.*/}
+                    {/*I have learned to present myself in a very positive light; I know who I am, and I live up to that.*/}
+
+                {/*</div>*/}
+                {/*</Paper>*/}
+              {/*</form>*/}
 
           <br/>
 
@@ -52,7 +59,11 @@ class Marie extends Component {
 
                       <div className='e'>
 
-                        <h1 > Education: </h1>
+
+                          <b>
+                            Education:
+                          </b>
+
 
                       </div>
 
@@ -81,13 +92,9 @@ class Marie extends Component {
                   <div className='mmm'>
 
                     <br/>
-
-                      <div className='e'>
-
-                        <h1>Professional Experience</h1>
-
-                      </div>
-
+                        <h1 className='e'>
+                            Professional Experience:
+                        </h1>
                     <br/>
 
                     <ul>
@@ -114,11 +121,9 @@ class Marie extends Component {
 
                     <br/>
 
-                      <div className='e'>
-
-                        <h1>I specialize in hypnotherapy that helps my clients:</h1>
-
-                      </div>
+                        <h1 className='e'>
+                            I specialize in hypnotherapy that helps my clients:
+                        </h1>
 
                     <br/>
 
@@ -138,6 +143,23 @@ class Marie extends Component {
 
               </form>
 
+              <br/>
+
+              <form>
+                <Paper className='secondp' zDepth={5} rounded={true}>
+                  <img className='marie1' src = {imgUrl} />
+                  <div className='m'>
+                    <br/>
+                    My goal is to help people find peace, harmony, and fulfillment of their dreams.
+
+                    I have very high standards and always strive to maintain those standards.
+                    I am a hard worker and push myself to find solutions.
+                    I have strong boundaries and will not cross the boundaries that I have set for myself, while accepting that others have to figure out their own boundaries and set their own limits.
+                    I have learned to present myself in a very positive light; I know who I am, and I live up to that.
+
+                  </div>
+                </Paper>
+              </form>
 
             </div>
 

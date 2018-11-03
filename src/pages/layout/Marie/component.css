@@ -90,15 +90,15 @@
 
 .m {
     padding: 2%;
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
     background-color: lightblue;
-
+    font-family: 'Lobster', cursive;
 }
 
 .mm {
     padding: 2%;
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     background-color: cornsilk;
@@ -125,8 +125,21 @@
 
 .e {
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
+.let {
+    font-size: 50px;
+    font-weight: bold;
+}
 
-
+.quote{
+    padding: 2%;
+    font-family: cursive;
+    text-align: match-parent;
+    color: darkblue;
+    font-style: italic;
+    /*font-size: px;*/
+    background-color: paleturquoise;
+}
