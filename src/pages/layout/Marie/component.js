@@ -13,12 +13,10 @@ class Marie extends Component {
     return (
       <MuiThemeProvider>
 
-        <div className='page'>
-              <form>
-                  <h1 className = 'let'>
+        <div className='aboutMarie'>
+                  <h1>
                       Let me tell you about myself
                   </h1>
-              </form>
 
          <br/>
               <Paper className='firstp' zDepth={5} rounded={true}>
@@ -58,13 +56,7 @@ class Marie extends Component {
                     <br/>
 
                       <div className='e'>
-
-
-                          <b>
                             Education:
-                          </b>
-
-
                       </div>
 
                     <br/>

@@ -71,8 +71,8 @@
     height: 30%;
 }
 .marie2 {
-    /*width: 30%;*/
-    height: 30%;
+    width: 50%;
+    height: 40%;
 }
 .marie3 {
     width: 33%;
@@ -83,7 +83,7 @@
     height: 20%;
 }
 
-.page {
+.aboutMarie {
     padding: 50px;
     background-color: lightsteelblue;
 }
@@ -98,7 +98,7 @@
 
 .mm {
     padding: 2%;
-    font-size: 35px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     background-color: cornsilk;
@@ -125,21 +125,18 @@
 
 .e {
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
 }
 
-.let {
-    font-size: 50px;
-    font-weight: bold;
-}
 
 .quote{
     padding: 2%;
-    font-family: cursive;
+    font-family: 'Lobster', cursive;
+    /*font-family: cursive;*/
     text-align: match-parent;
     color: darkblue;
-    font-style: italic;
+    /*font-style: italic;*/
     /*font-size: px;*/
     background-color: paleturquoise;
 }

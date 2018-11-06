@@ -35,9 +35,9 @@ export default ({ cartCount }) => (
 
     <NavbarBrand id="NavTitle" className="NavTitle">I am here to help you become the Master of yourself</NavbarBrand>
     <Nav className="ml-auto">
-      <NavItem>
-        <NavLink href="/">Home</NavLink>
-      </NavItem>
+      {/*<NavItem>*/}
+        {/*<NavLink href="/">Home</NavLink>*/}
+      {/*</NavItem>*/}
       <NavItem>
         <NavLink href="/marie">About Marie Whale </NavLink>
       </NavItem>
@@ -47,18 +47,18 @@ export default ({ cartCount }) => (
       <NavItem>
         <NavLink href="/blog">Blog</NavLink>
       </NavItem>
-      <NavItem>
-        <NavLink href="/create">Create New Account</NavLink>
-      </NavItem>
-      <NavItem>
-        <NavLink href="/appointment">Schedule an appointment</NavLink>
-      </NavItem>
+      {/*<NavItem>*/}
+        {/*<NavLink href="/create">Create New Account</NavLink>*/}
+      {/*</NavItem>*/}
+      {/*<NavItem>*/}
+        {/*<NavLink href="/appointment">Schedule an appointment</NavLink>*/}
+      {/*</NavItem>*/}
       <NavItem>
         {/*<NavLink href="/store">Store</NavLink>*/}
       </NavItem>
-      <NavItem>
-        <NavLink href="/account">My account</NavLink>
-      </NavItem>
+      {/*<NavItem>*/}
+        {/*<NavLink href="/account">My account</NavLink>*/}
+      {/*</NavItem>*/}
 
       <NavItem>
           <NavLink href="/products" className="nav-link">Products</NavLink>
