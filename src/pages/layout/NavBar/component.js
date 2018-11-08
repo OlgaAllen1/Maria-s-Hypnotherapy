@@ -47,18 +47,18 @@ export default ({ cartCount }) => (
       <NavItem>
         <NavLink href="/blog">Blog</NavLink>
       </NavItem>
-      {/*<NavItem>*/}
-        {/*<NavLink href="/create">Create New Account</NavLink>*/}
-      {/*</NavItem>*/}
-      {/*<NavItem>*/}
-        {/*<NavLink href="/appointment">Schedule an appointment</NavLink>*/}
-      {/*</NavItem>*/}
+      <NavItem>
+        <NavLink href="/create">Create New Account</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="/appointment">Schedule an appointment</NavLink>
+      </NavItem>
       <NavItem>
         {/*<NavLink href="/store">Store</NavLink>*/}
       </NavItem>
-      {/*<NavItem>*/}
-        {/*<NavLink href="/account">My account</NavLink>*/}
-      {/*</NavItem>*/}
+      <NavItem>
+        <NavLink href="/account">My account</NavLink>
+      </NavItem>
 
       <NavItem>
           <NavLink href="/products" className="nav-link">Products</NavLink>

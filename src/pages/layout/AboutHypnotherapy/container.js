@@ -29,7 +29,7 @@ class Home extends Component {
                       {/*</div>*/}
                     {/*</Paper>*/}
 
-              <br/>
+              {/*<br/>*/}
 
                     {/*<form>*/}
 
@@ -74,7 +74,7 @@ class Home extends Component {
 
                     {/*</form>*/}
 
-              <br/>
+              {/*<br/>*/}
 
 
                     {/*<Paper className='lily' zDepth={5} rounded={true}>*/}

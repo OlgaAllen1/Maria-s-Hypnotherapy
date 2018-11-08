@@ -22,6 +22,7 @@ class Testimonials extends Component {
               <div className='t'>
                 <br/>
                 <h1>Health Challenges </h1>
+                <br/>
                   <p>
                       Marie has known me for several years. She has been aware of my ongoing health challenges. She suggested that hypnotherapy would be a benefit to me. I have utilized many different health aids and therapies over the years in my quest for healing life-long ailments. I had not ever utilized hypnotherapy and did not know much about it. In fact, I had a certain amount of apprehension before my first session. I wondered if I were even “hypnotizable”.
                     I have now had five sessions, and I am amazed how much progress I have made.  I have come to realize how much our subconscious mind dictates our actions and can impede our progress.
@@ -45,9 +46,8 @@ class Testimonials extends Component {
               <img src = {iUrl} />
               <div className='pp'>
                 <br/>
-                    <h1 >
-                      Grief
-                    </h1>
+                    <h1 >Grief</h1>
+                <br/>
                       <p>
                       I have only had one session.  I will admit I was a little skeptical.   I did not think she would be able to hypnotize me.   I was wrong.  She gets you so relaxed and then puts you under.   I knew what was going the whole session.  I was completely in charge and aware of everything happening.  She asks you questions, and for me, I found my mind throwing all these ideas at me so it would take a little bit of thinking before I could answer.  You would see a situation in a different way.   From different points of view which opened your mind (or maybe I should say your heart).  I knew I was in charge when she brought things out of my subconscious mind.
                       </p>
