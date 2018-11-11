@@ -76,23 +76,28 @@
 .picture{
     width: 25%;
     height: 20%;
+    max-height: fit-content;
 }
 
 .marie1 {
     width: 30%;
     height: 30%;
+    max-height: fit-content;
 }
 .marie2 {
     width: 50%;
     height: 40%;
+    max-height: fit-content;
 }
 .marie3 {
     width: 33%;
     height: 20%;
+    max-height: fit-content;
 }
 .marie4 {
     width: 30%;
     height: 20%;
+    max-height: fit-content;
 }
 
 .aboutMarie {
@@ -102,7 +107,7 @@
 
 .m {
     padding: 2%;
-    font-size: 38px;
+    font-size: 2vw;
     text-align: center;
     background-color: lightblue;
     font-family: 'Lobster', cursive;
@@ -110,7 +115,7 @@
 
 .mm {
     padding: 2%;
-    font-size: 30px;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
     background-color: cornsilk;
@@ -119,7 +124,7 @@
 
 .mmm {
     padding: 2%;
-    font-size: 30px;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
     background-color: plum;
@@ -128,7 +133,7 @@
 
 .mmmm {
     padding: 2%;
-    font-size: 30px;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
     background-color: lightyellow;
@@ -137,7 +142,7 @@
 
 .e {
     text-align: center;
-    font-size: 35px;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -149,6 +154,6 @@
     text-align: match-parent;
     color: darkblue;
     /*font-style: italic;*/
-    font-size: 40px;
+    font-size: 2vw;
     background-color: paleturquoise;
 }
