@@ -6,18 +6,6 @@
     /*background: red;*/
 /*}*/
 
-h1 {
-    /*padding-top: 40px;*/
-    /*padding-bottom: 20px;*/
-    font-size: 18px;
-    /*background-color: lightsteelblue;*/
-}
-
-h2{
-    font-size: 18px;
-    /*padding: 30px;*/
-    /*background-color: lightblue;*/
-}
 
 .table{
     padding: 2%;
@@ -40,7 +28,7 @@ h2{
     text-align: left;
     border: dotted;
     padding: 5%;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 
