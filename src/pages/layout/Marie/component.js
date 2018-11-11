@@ -52,14 +52,14 @@ class Marie extends Component {
               <form>
 
                 <Paper className='secondp' zDepth={5} rounded={true}>
-                  <div className='mm'>
-                    <br/>
+                  <div className='education'>
+                    {/*<br/>*/}
 
-                      <div className='e'>
+                      <h1 className='e'>
                             Education:
-                      </div>
+                      </h1>
 
-                    <br/>
+                    {/*<br/>*/}
 
                     <ul>
                         <li>Certified as a Clinical Hypnotherapist by the American Council of Hypnotist Examiners</li>
@@ -81,13 +81,13 @@ class Marie extends Component {
 
                 <Paper className='secondp' zDepth={5} rounded={true}>
                   <img className='marie3' src = {sunUrl} />
-                  <div className='mmm'>
+                  <div className='professionalExperience'>
 
-                    <br/>
+                    {/*<br/>*/}
                         <h1 className='e'>
                             Professional Experience:
                         </h1>
-                    <br/>
+                    {/*<br/>*/}
 
                     <ul>
                         <li>As a Mentor and Coach, I taught and motivated clients to build confidence and positivity, set and achieve goals.</li>
@@ -109,15 +109,15 @@ class Marie extends Component {
 
                 <Paper className='thirdp' zDepth={5} rounded={true}>
 
-                  <div className='mmmm'>
+                  <div className='specialize'>
 
-                    <br/>
+                    {/*<br/>*/}
 
                         <h1 className='e'>
                             I specialize in hypnotherapy that helps my clients:
                         </h1>
 
-                    <br/>
+                    {/*<br/>*/}
 
                     <ul>
                         <li>Heal from Abuse</li>
@@ -141,7 +141,7 @@ class Marie extends Component {
                 <Paper className='secondp' zDepth={5} rounded={true}>
                   <img className='marie1' src = {imgUrl} />
                   <div className='m'>
-                    <br/>
+                    {/*<br/>*/}
                     My goal is to help people find peace, harmony, and fulfillment of their dreams.
 
                     I have very high standards and always strive to maintain those standards.

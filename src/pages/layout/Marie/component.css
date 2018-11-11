@@ -91,7 +91,7 @@
 }
 .marie3 {
     width: 33%;
-    height: 20%;
+    height: 33%;
     max-height: fit-content;
 }
 .marie4 {
@@ -113,27 +113,27 @@
     font-family: 'Lobster', cursive;
 }
 
-.mm {
+.education {
     padding: 2%;
-    font-size: 2vw;
+    font-size: 1.6vw;
     display: flex;
     flex-direction: column;
     background-color: cornsilk;
     width: 100%;
 }
 
-.mmm {
+.professionalExperience {
     padding: 2%;
-    font-size: 2vw;
+    font-size: 1.60vw;
     display: flex;
     flex-direction: column;
     background-color: plum;
     backdrop-filter: opacity(30%);
 }
 
-.mmmm {
+.specialize {
     padding: 2%;
-    font-size: 2vw;
+    font-size: 1.6vw;
     display: flex;
     flex-direction: column;
     background-color: lightyellow;
