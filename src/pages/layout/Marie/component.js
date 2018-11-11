@@ -55,7 +55,7 @@ class Marie extends Component {
                   <div className='education'>
                     {/*<br/>*/}
 
-                      <h1 className='e'>
+                      <h1 className='subtitle'>
                             Education:
                       </h1>
 
@@ -84,7 +84,7 @@ class Marie extends Component {
                   <div className='professionalExperience'>
 
                     {/*<br/>*/}
-                        <h1 className='e'>
+                        <h1 className='subtitle'>
                             Professional Experience:
                         </h1>
                     {/*<br/>*/}
@@ -113,7 +113,7 @@ class Marie extends Component {
 
                     {/*<br/>*/}
 
-                        <h1 className='e'>
+                        <h1 className='subtitle'>
                             I specialize in hypnotherapy that helps my clients:
                         </h1>
 
