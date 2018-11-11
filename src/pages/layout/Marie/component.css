@@ -3,56 +3,56 @@
     background-color: lightsteelblue;
 }
 
-@media only screen and (max-width: 1260px) {
-    .picture {
-        display: none;
-    }
-    .quote {
-        background-image: url("../Marie/light.jpg");
-    }
-}
+/*@media only screen and (max-width: 1260px) {*/
+    /*.picture {*/
+        /*display: none;*/
+    /*}*/
+    /*.quote {*/
+        /*background-image: url("../Marie/light.jpg");*/
+    /*}*/
+/*}*/
 
 
-@media only screen and (max-width: 1500px) {
-    .marie1 {
-        display: none;
-    }
+/*@media only screen and (max-width: 1500px) {*/
+    /*.marie1 {*/
+        /*display: none;*/
+    /*}*/
 
-    .m {
-        background-image: url("Marie.jpg");
-        background-blend-mode: screen;
-    }
-}
-@media only screen and (max-width: 1890px) {
-    .marie2 {
-        display: none;
-    }
+    /*.m {*/
+        /*background-image: url("Marie.jpg");*/
+        /*background-blend-mode: screen;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 1890px) {*/
+    /*.marie2 {*/
+        /*display: none;*/
+    /*}*/
 
-    .mm {
-        background: lightyellow;
-        /*background-image: url('cert.jpg');*/
-        background-blend-mode: screen;
-    }
-}
-@media only screen and (max-width: 1880px) {
-    .marie3 {
-        display: none;
-    }
+    /*.mm {*/
+        /*background: lightyellow;*/
+        /*!*background-image: url('cert.jpg');*!*/
+        /*background-blend-mode: screen;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 1880px) {*/
+    /*.marie3 {*/
+        /*display: none;*/
+    /*}*/
 
-    .mmm {
-        background-image: url('sunshine.jpg');
-        background-blend-mode: screen;
-    }
-}
-@media only screen and (max-width: 1550px) {
-    .marie4 {
-        display: none;
-    }
-    .mmmm{
-        background-image: url("Liza.jpg");
-        background-blend-mode: screen;
-    }
-}
+    /*.mmm {*/
+        /*background-image: url('sunshine.jpg');*/
+        /*background-blend-mode: screen;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 1550px) {*/
+    /*.marie4 {*/
+        /*display: none;*/
+    /*}*/
+    /*.mmmm{*/
+        /*background-image: url("Liza.jpg");*/
+        /*background-blend-mode: screen;*/
+    /*}*/
+/*}*/
 
 .firstp{
     display: flex;
