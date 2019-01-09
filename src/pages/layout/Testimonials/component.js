@@ -24,7 +24,7 @@ class Testimonials extends Component {
                 <h1>Health Challenges </h1>
                 <br/>
                   <p>
-                      Marie has known me for several years. She has been aware of my ongoing health challenges. She suggested that hypnotherapy would be a benefit to me. I have utilized many different health aids and therapies over the years in my quest for healing life-long ailments. I had not ever utilized hypnotherapy and did not know much about it. In fact, I had a certain amount of apprehension before my first session. I wondered if I were even “hypnotizable”.
+                    <a href="#">Marie</a>Marie has known me for several years. She has been aware of my ongoing health challenges. She suggested that hypnotherapy would be a benefit to me. I have utilized many different health aids and therapies over the years in my quest for healing life-long ailments. I had not ever utilized hypnotherapy and did not know much about it. In fact, I had a certain amount of apprehension before my first session. I wondered if I were even “hypnotizable”.
                     I have now had five sessions, and I am amazed how much progress I have made.  I have come to realize how much our subconscious mind dictates our actions and can impede our progress.
                     Marie’s calm manner and expertise were instrumental in guiding me into the trance stage in a relatively short amount of time.  This helped me to uncover and address detrimental thought patterns that I had developed on a subconscious level.
                   </p>

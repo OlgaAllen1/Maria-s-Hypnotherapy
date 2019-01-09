@@ -12,3 +12,8 @@
     flex-direction: column;
 
 }
+
+.submit {
+    background-color: darkblue;
+    color: white;
+}
