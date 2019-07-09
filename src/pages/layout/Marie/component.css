@@ -157,3 +157,15 @@
     font-size: 2vw;
     background-color: paleturquoise;
 }
+/*.marie1, .marie2, .marie3, marie4 {*/
+    /*position: relative;*/
+    /*opacity: 0.70;*/
+    /*background-position: center;*/
+    /*background-size: cover; !* use this to see the whole picture*!*/
+    /*background-repeat: no-repeat;*/
+    /*!**/
+      /*fixed = Parallax*/
+      /*scroll = normal*/
+    /**!*/
+    /*background-attachment: fixed;*/
+/*}*/
