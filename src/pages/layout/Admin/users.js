@@ -53,13 +53,13 @@ export default class MyUsers extends Component {
             mutation {
                 createUser(data: {
                     userName: "${this.state.userName}",
-                    email: ,
-                    password: '',
-                    gender: '',
-                    birthDate: '',
-                    date: '',
-                    summary: '',
-                    question: ''
+                    email: "${this.state.email}",
+                    password: "${this.state.password}",
+                    gender: "${this.state.gender}",
+                    birthDate: "${this.state.birthDate}",
+                    date: "${this.state.date}",
+                    summary: "${this.state.summary}",
+                    question: "${this.state.question}"
                 })
             }
 
@@ -69,14 +69,14 @@ export default class MyUsers extends Component {
 
         await console.log("La Data: ", temp2)
         await this.setState({
-          userName: '',
-          email: '',
-          password: '',
-          gender: '',
-          birthDate: '',
-          date: '',
-          summary: '',
-          question: ''
+          userName: "",
+          email: "",
+          password: "",
+          gender: "",
+          birthDate: "",
+          date: "",
+          summary: "",
+          question: ""
         })
       //
       //
