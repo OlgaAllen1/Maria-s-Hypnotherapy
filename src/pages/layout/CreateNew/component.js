@@ -8,7 +8,7 @@ import { client } from '../../../endpoint'
 
 export default class Create extends Component {
         state = {
-          username: "",
+          userName: "",
           email: "",
           password: "",
           repeat: "",
@@ -35,7 +35,7 @@ export default class Create extends Component {
               mutation{
                   createUser(
                       data: {
-                          username: "${this.state.username}",
+                          userName: "${this.state.userName}",
                           email: "${this.state.email}",
                           password: "${this.state.password}",
                           gender: "${this.state.gender}",
@@ -46,7 +46,7 @@ export default class Create extends Component {
                       }
                   ){
                       id
-                      username
+                      userName
                   }
               }
           `
@@ -54,7 +54,7 @@ export default class Create extends Component {
 
         await console.log("La Data: ", temp1)
         await this.setState({
-          username: "",
+          userName: "",
           email: "",
           password: "",
           repeat: "",
@@ -88,7 +88,7 @@ export default class Create extends Component {
 //       window.location.reload()
 //     }
 
-  // console.log("username: ", this.state.username)
+  // console.log("userName: ", this.state.userName)
   // console.log("email: ", this.state.email)
   // console.log("password", this. state.password)
   // console.log("repeat", this.state.repeat)
@@ -109,14 +109,14 @@ export default class Create extends Component {
 
         <FormGroup row>
       
-          <Label for="createusername" sm={2}>Username</Label>
+          <Label for="createUserName" sm={2}>Username</Label>
           <Col sm={10}>
       
             <Input type="text"
-                  name="username"
+                  name="userName"
                    id="createUserName"
-                  value={this.state.username}
-                  onChange={ (e) => { this.setState({ username: e.target.value }) } }
+                  value={this.state.userName}
+                  onChange={ (e) => { this.setState({ userName: e.target.value }) } }
                   placeholder="your username" />
           </Col>
         </FormGroup>
