@@ -7,25 +7,25 @@ export default class extends Component {
   constructor (props){
     super(props)
     this.state ={
-      username:'',
+      userName:'',
       password:''
     }
   }
   render () {
     const handleSubmit = (event) => {
       event.preventDefault()
-      console.log(this.state.username + " : " + this.state.password)
+      console.log(this.state.userName + " : " + this.state.password)
     }
 
     // const handleTextChange = (event) => {
-    //   this.setState({username: event.target.value})
+    //   this.setState({userName: event.target.value})
     // }
     const MyLink = props => <Link to="/open-collective" {...props} />
     return(
       <div className="LogIn">
         <form className="flexBox" onSubmit={handleSubmit}>
 
-          <input type="text" placeholder="Username" onChange={e => this.setState({username: e.target.value})} />
+          <input type="text" placeholder="Username" onChange={e => this.setState({userName: e.target.value})} />
           <br/>
           <input type="password" placeholder="Password" onChange={e => this.setState({password: e.target.value})}/>
           <br/>
