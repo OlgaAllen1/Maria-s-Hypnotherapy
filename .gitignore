@@ -1,7 +1,8 @@
-Files and directories to ignore
+# Files and directories to ignore
 .DS_Store
 .idea
 .idea/workspace.xml
 node_modules
+yarn-error.log
 
 #/src/pages/layout/CreateNew/container.css
